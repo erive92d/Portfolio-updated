@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(rgb(237, 228, 228), rgb(143, 209, 175)); 
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.burger-icon {
+    display: hidden;
+    width: 32px;
+    height: 32px;
+    background: url(./image/hamburger.webp);
+}
+
+#about-me {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:640px) {
+    header {
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    header h1 {
+        font-size: 150%;
+    }
+    .burger-icon {
+        display: block;
+        
+    }
+
+    nav {
+        display: block;
+        
+    }
+
+    #nav-items {
+        display: none;
+        width: 50%;
+        background: darkgray;
+        border: 3px solid black;
+    }
+    nav ul li {
+        padding: 3% 0;
+        border-bottom: 3px solid blue;
+        
+    }
+   
+    
+
+}
